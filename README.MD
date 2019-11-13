@@ -1,7 +1,8 @@
 # websocket-mq-poc
 ## goals
-- backend microservice in all major programming language can do live interact with front-end web apps asyncally
+- backend microservice in all major programming language can do live interact with front-end web apps asynchronously
 - maintenance-free ws server
+- seperate ws server from backend business logic
 
 ## architecture
 overview
