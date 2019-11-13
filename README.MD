@@ -33,7 +33,7 @@ overview
 
 ## resources
 1. mqtt server: evcloud.ilabservice.cloud:1883
-2. ws server: evcloud.ilabservice.cloud:443/ws_mqtt
+2. ws server: videotest.ilabservice.cloud:443/ws_mqtt
 
 ## [deprected, application specific]proposed communication model and spec
 ### topics
