@@ -98,12 +98,12 @@
 
         var debug = pipe('#second');
 
-        var wsbroker = location.hostname;  //mqtt websocket enabled broker
-        var wsport = 8083; // port
+        var wsbroker = 'videotest.ilabservice.cloud';  //mqtt websocket enabled broker
+        var wsport = 443; // port
 
         var client;
         var connect = function(uid) {
-            client = new Paho.MQTT.Client(wsbroker, wsport, "/mqtt", uid);
+            client = new Paho.MQTT.Client(wsbroker, wsport, "/ws_mqtt", uid);
             client.onConnectionLost = function (responseObject) {
                 debug("CONNECTION LOST - " + responseObject.errorMessage);
             };

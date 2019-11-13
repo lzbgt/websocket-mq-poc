@@ -31,7 +31,11 @@ overview
 - emqx https://hub.docker.com/emqx/emqx
 - all backend frameworks that have mqtt connection adaptor or lib available
 
-## proposed communication model and spec
+## resources
+1. mqtt server: evcloud.ilabservice.cloud:1883
+2. ws server: evcloud.ilabservice.cloud:443/ws_mqtt
+
+## [deprected, application specific]proposed communication model and spec
 ### topics
 const APP_TOPICS_ROOT = 'evsuites/'
 - topic WEBAPP_TOPIC_STATUS
